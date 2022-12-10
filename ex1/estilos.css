@@ -27,3 +27,13 @@ a#botao button {
 a#botao img {
   height: 100px;
 }
+
+div#imagens {
+  width: 100%;
+  display: flex;
+}
+
+div#imagens img {
+  width: calc(100% / 3);
+  display: block;
+}
