@@ -1,6 +1,23 @@
+html,
+body,
+div,
+footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
 body {
+  min-height: 100vh;
   padding-top: 40px;
   background-color: rgb(221, 236, 246);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
 }
 
 h1 {
@@ -36,6 +53,7 @@ div#imagens {
 
 div#imagens img {
   width: calc(100% / 3);
+  height: 400px;
   display: block;
 }
 
@@ -80,5 +98,11 @@ nav ul li a:hover {
   background-color: #fff;
   color: rgb(220, 59, 167);
   transition: all 300ms;
+}
+
+footer {
+  background-color: lightpink;
+  color: #fff;
+  text-align: center;
 
 }
