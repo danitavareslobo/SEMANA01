@@ -7,6 +7,10 @@ h1 {
   font-size: 20px;
   color: rgb(220, 59, 167);
   text-align: center;
+  background-image: url(https://png.pngtree.com/background/20210715/original/pngtree-white-flowers-on-blue-background-floral-background-picture-image_1317459.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 p {
